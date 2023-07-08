@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikin Navbar Responsive</title>
+
+    <!-- Feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+    
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- Awal Navbar -->
+    <nav class="navbar">
+       <a href="#"class="navbar-logo">Alpian<span>syah</span></a>
+
+       <div class="navbar-nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#Gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+       </div>
+
+       <div class="navbar-search">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+       </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Hero Section Awal -->
+    <section class="hero" id="home">
+        <main class="content">
+            <h1>Welcome To Website <span>Alpin</span></h1>
+            <p>I just entered the world of IT. My goal is to be a front-end and I want to work at Google</p>
+            <a href="#" class="cta">Klik Me</a>
+        </main>
+    </section>
+    <!-- Hero Section Akhir -->
+
+    <!-- About section -->
+    <section id="about" class="about">
+        <h2> <span>About</span> Me</h2>
+
+        <div class="row">
+            <div class="img-row" data-aos="fade-up" data-aos-duration="800">
+            <img src="img/marek-piwnicki-2dn9IcvOHu0-unsplash.jpg" alt="About me">
+            </div>
+
+            <div class="content" data-aos="fade-down" data-aos-duration="700">
+                <h3>Market Park</h3>
+    
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt cupiditate facere aperiam cum ducimus fuga?</p>
+    
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit qui inventore minus praesentium eligendi repellat ut vitae dolorem, aliquid iusto!</p>
+            </div>
+        </div>
+    </section>
+    <!-- About section Akhir -->
+
+    <!-- skill Awal -->
+    <section id="Gallery" class="Gallery">
+        <h2> <span>Gallery</span> Me</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam illum repellendus laboriosam unde quisquam</p>
+
+        <div class="row">
+            <div class="card">
+                <img style="width:200px; height:200px; border-radius:50%;" src="img/img1.jpg" alt="" class="Gallery-card-img"  data-aos="zoom-in"  data-aos-duration="800">
+                <h3 class="Gallery-card-title">- Ghost Rider -</h3>
+            </div>
+            <div class="card">
+                <img style="width:200px; height:200px; border-radius:50%;" src="img/img2.jpg" alt="" class="Gallery-card-img"  data-aos="zoom-in"  data-aos-duration="800">
+                <h3 class="Gallery-card-title">- Good Of War -</h3>
+            </div>
+            <div class="card">
+                <img style="width:200px; height:200px; border-radius:50%;" src="img/img3.jpg" alt="" class="Gallery-card-img"  data-aos="zoom-in"  data-aos-duration="800">
+                <h3 class="Gallery-card-title">- Batman -</h3>
+            </div>
+            <div class="card">
+                <img style="width:200px; height:200px; border-radius:50%;" src="img/img4.jpg" alt="" class="Gallery-card-img"  data-aos="zoom-in"  data-aos-duration="900">
+                <h3 class="Gallery-card-title">- The Flash -</h3>
+            </div>
+            <div class="card">
+                <img style="width:200px; height:200px; border-radius:50%;" src="img/img5.jpg" alt="" class="Gallery-card-img"  data-aos="zoom-in"  data-aos-duration="900">
+                <h3 class="Gallery-card-title">- Super Man -</h3>
+            </div>
+            <div class="card">
+                <img style="width:200px; height:200px; border-radius:50%;" src="img/img1.jpg" alt="" class="Gallery-card-img"  data-aos="zoom-in" data-aos-duration="900">
+                <h3 class="Gallery-card-title">- Batman -</h3>
+            </div>
+        </div>
+    </section>
+    <!-- skill Akhir -->
+
+    <!-- Contact Section Awal -->
+        <section id="contact" class="contact">
+            <h2> <span>Contact</span> Me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quae.</p>
+     
+
+        <div class="row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63400.77256597388!2d106.9251999149134!3d-6.702727934783783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69b41da3000801%3A0xf076753f09646828!2sPuncak%2C%20Bogor!5e0!3m2!1sid!2sid!4v1688796512553!5m2!1sid!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+            <form action="">
+                <div class="form-group">
+                    <i data-feather="user"></i>
+                    <input type="text" placeholder="nama">
+                </div>
+                <div class="form-group">
+                    <i data-feather="mail"></i>
+                    <input type="text" placeholder="email">
+                </div>
+                <div class="form-group">
+                    <i data-feather="phone"></i>
+                    <input type="text" placeholder="no hp">
+                </div>
+                <button type="submit" class="btn">Kirim Pesan</button>
+            </form>
+
+        </div>
+    </section>
+    <!-- Contact Section Akhir -->
+
+    <!-- Footer Awal -->
+        <footer>
+            <div class="sosial">
+                <a href="https://www.instagram.com/rapin.an/"><i data-feather="instagram"></i></a>
+                <a href="#"><i data-feather="github"></i></a>
+                <a href="#"><i data-feather="facebook"></i></a>
+            </div>
+
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#Gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="credit">
+                <p>Created by <a href="">Alpiansyah</a>. | &copy; 2023.</p>
+            </div>
+        </footer>
+    <!-- Footer Akhir -->
+
+    <script>
+        feather.replace()
+      </script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+      <!-- My Javascript -->
+      <script src="js/script.js"></script>
+</body>
+</html>
